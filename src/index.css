@@ -50,7 +50,7 @@ a {
 }
 
 .unclickable {
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
 
 /* NAVBAR */
