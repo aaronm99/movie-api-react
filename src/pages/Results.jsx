@@ -12,7 +12,7 @@ const Results = ({ searchValue }) => {
   async function fetchMovie() {
     setLoading(true);
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?apikey=6a434c95&s=${searchValue}`
+      `https://www.omdbapi.com/?apikey=6a434c95&s=${searchValue}`
     );
 
     setMovie(data.Search);

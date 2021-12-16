@@ -15,7 +15,7 @@ const Description = () => {
   async function getInfo() {
     setLoading(true);
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?apikey=6a434c95&i=${id}`
+      `https://www.omdbapi.com/?apikey=6a434c95&i=${id}`
     );
     setInfo(data);
 
